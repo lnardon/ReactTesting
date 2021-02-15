@@ -1,9 +1,6 @@
-import Enzyme, { shallow } from "enzyme";
-import EnzymeAdapter from "enzyme-adapter-react-16";
+import { shallow } from "enzyme";
 import { findByAttribute } from "../../testUtils";
 import Congrats from "./index";
-
-Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 // Basic testing
 // Data test attribute usage
