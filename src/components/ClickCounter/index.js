@@ -6,8 +6,10 @@ function ClickCounter() {
   return (
     <div data-test="componentCounter">
       <h1>Click Counter</h1>
-      <h3>{counter} clicks</h3>
-      <button onClick={() => setCounter(counter + 1)}>ADD</button>
+      <h3 data-test="count">{counter}</h3>
+      <button data-test="btn" onClick={() => setCounter(counter + 1)}>
+        ADD
+      </button>
     </div>
   );
 }
