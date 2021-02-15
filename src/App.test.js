@@ -6,4 +6,5 @@ Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 test("renders learn react link", () => {
   const wraper = shallow(<App />);
+  expect(wraper).toBeTruthy();
 });
