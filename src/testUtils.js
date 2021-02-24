@@ -1,3 +1,3 @@
-export function findByAttribute(wraper, id) {
-  return wraper.find(`[data-test='${id}']`);
+export function findByAttribute(wrapper, id) {
+  return wrapper.find(`[data-test='${id}']`);
 }
