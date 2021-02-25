@@ -5,8 +5,12 @@ function List({ words = [] }) {
     <div data-test="componentList">
       {words.length > 0 ? (
         <div data-test="componentListTable">
-          {words.map((word) => {
-            return <h1 key={word}>{word}</h1>;
+          {words.map((word, index) => {
+            return (
+              <h1 data-test="componentWord" key={index}>
+                {word}
+              </h1>
+            );
           })}
         </div>
       ) : null}
