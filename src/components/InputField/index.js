@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function InputField() {
   const [name, setName] = useState("");
   return (
-    <div>
+    <div data-test="componentContainer">
       <label htmlFor="name">Name</label>
       <input
         name="name"
