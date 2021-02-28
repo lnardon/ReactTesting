@@ -14,8 +14,16 @@ test("renders component without crashing", () => {
   expect(component.length).toBe(1);
 });
 
-test("renders correct input value on change", () => {
+test("useEffect function gets called on component mount", () => {
   const mockedProp = jest.fn();
   mount(<Display func={mockedProp} />);
   expect(mockedProp).toHaveBeenCalled();
+});
+
+test("useEffect function does not gets called on component update", () => {
+  const mockedProp = jest.fn();
+  const wrapper = mount(<Display func={mockedProp} />);
+  mockedProp.mockClear();
+  wrapper.setProps();
+  expect(mockedProp).not.toHaveBeenCalled();
 });
