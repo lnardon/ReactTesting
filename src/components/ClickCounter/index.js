@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 
 function ClickCounter() {
   const [counter, setCounter] = useState(0);
-
   return (
     <div data-test="componentCounter">
       <h1>Click Counter</h1>
