@@ -12,13 +12,13 @@ Run `yarn test` on the root directory to run all tests.
 
 ### Tests
 
-- Component Render Test
+- Component Render Tests
 - Props Tests
-- useState tests
-- useEffect tests
-- Context and useContext tests
-- Jest Functions
-- Data Test Attribute
+- useState Tests
+- useEffect Tests
+- Context and useContext Tests
+- Jest Functions Tests
+- Data Test Attribute Tests
 
 ### What I learned/Used on this project
 
