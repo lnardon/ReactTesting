@@ -10,6 +10,16 @@ Clone the repository and run `yarn` on the root directory to install all depende
 
 Run `yarn test` on the root directory to run all tests.
 
+### Tests
+
+- Component Render Test
+- Props Tests
+- useState tests
+- useEffect tests
+- Context and useContext tests
+- Jest Functions
+- Data Test Attribute
+
 ### What I learned/Used on this project
 
 - Jest
