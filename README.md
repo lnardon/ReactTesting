@@ -1,6 +1,6 @@
 # React Jest and Enzyme Testing
 
-This project purpose is to practice TDD in React using Jest ans Enzyme.
+This project purpose is to practice TDD in React using Jest and Enzyme.
 
 ### Installation
 
