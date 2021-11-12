@@ -1,6 +1,8 @@
 # React Jest and Enzyme Testing
 
-This project purpose is to practice TDD in React using Jest and Enzyme.
+![Tests](https://github.com/lnardon/ReactTesting/actions/workflows/node.js.yml/badge.svg)
+
+This projects purpose is to practice TDD in React using Jest and Enzyme.
 
 ### Installation
 
